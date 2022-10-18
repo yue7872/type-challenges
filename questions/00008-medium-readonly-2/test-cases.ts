@@ -26,3 +26,5 @@ interface Expected {
   readonly description?: string
   completed: boolean
 }
+
+type A = MyReadonly2<Todo1, 'title' | 'description'>
