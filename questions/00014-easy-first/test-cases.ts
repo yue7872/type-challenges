@@ -13,3 +13,5 @@ type errors = [
   // @ts-expect-error
   First<{ 0: 'arrayLike' }>,
 ]
+
+type A = First<[]>
